@@ -10,6 +10,11 @@ class App extends React.Component {
         <DefaultButton>
           I am a button.
         </DefaultButton>
+        <DefaultButton
+          text='See Button'
+          primary={true}
+          href='#/components/button'
+        />
       </div>
     );
   }
